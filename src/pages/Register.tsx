@@ -72,6 +72,12 @@ const Register = () => {
                 <div className="w-full max-w-md">
                     <div className="mb-6 text-center">
                         <h2 className="text-[24px] font-semibold text-[#2D2D2D]">Create an account</h2>
+                        <p className="text-center text-sm text-[#7D7D7D] mt-6">
+                            Already have an account?{' '}
+                            <a href="/login" className="text-[#005ADE] font-medium hover:underline">
+                                Login
+                            </a>
+                        </p>
                     </div>
 
                     <form onSubmit={handleSubmit} className="space-y-5">
@@ -133,13 +139,6 @@ const Register = () => {
                             Register
                         </button>
                     </form>
-
-                    <p className="text-center text-sm text-[#7D7D7D] mt-6">
-                        Already have an account?{' '}
-                        <a href="/login" className="text-[#005ADE] font-medium hover:underline">
-                            Login
-                        </a>
-                    </p>
                 </div>
             </div>
         </div>
