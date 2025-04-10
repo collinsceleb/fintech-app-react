@@ -44,16 +44,30 @@ const Register = () => {
     };
 
     return (
-        <div className="flex min-h-screen">
-            <div className="hidden md:flex flex-col justify-center items-start w-1/2 bg-[#F5F8FF] px-16 py-12">
-                <img src="/logo.svg" alt="Logo" className="mb-6 h-8" />
-                <h1 className="text-4xl font-bold text-[#2D2D2D] mb-4 leading-tight">
-                    Connect Faster with <span className="text-[#005ADE]">VanConnect</span>
-                </h1>
-                <p className="text-base text-[#4B4B4B] leading-relaxed">
-                    Streamline your vehicle bookings and payments with ease. Sign up to enjoy fast, secure, and simple transport solutions.
-                </p>
+        <div className="flex h-screen">
+            <div className="w-1/2 bg-[#0c0d0e] text-white px-16 py-12 flex flex-col justify-between">
+                <div>
+                    <div className="bg-yellow-400 text-black w-8 h-8 flex items-center justify-center rounded-full font-bold mb-8 text-lg">
+                        B.
+                    </div>
+                    <h2 className="text-2xl font-bold mb-2">
+                        Unlock High Returns with Collateralized Equity Asset
+                    </h2>
+                </div>
+                <div className="text-sm space-y-2">
+                    <p className="flex items-center gap-2">
+                        <span className="text-yellow-400">⚖️</span> Collateralized
+                    </p>
+                    <p className="flex items-center gap-2">
+                        <span className="text-yellow-400">🛡️</span> Secured
+                    </p>
+                    <p className="flex items-center gap-2">
+                        <span className="text-yellow-400">📜</span> Licensed & regulated
+                    </p>
+                </div>
             </div>
+
+
             <div className="w-full md:w-1/2 flex items-center justify-center bg-white px-6 py-10">
                 <div className="w-full max-w-md">
                     <div className="mb-6 text-center">
@@ -114,7 +128,7 @@ const Register = () => {
 
                         <button
                             type="submit"
-                            className="w-full py-3 text-sm font-semibold text-white bg-[#005ADE] hover:bg-[#0048B6] rounded-lg transition"
+                            className="w-full bg-black text-white rounded-full py-2 font-semibold hover:opacity-90 transition"
                         >
                             Register
                         </button>
